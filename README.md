@@ -1,19 +1,38 @@
-# ToDoApp
+# ToDoApp-Flutter Internship Project Week 1
 
-A new Flutter project created with FlutLab - https://flutlab.io
+This is the Week 1 submission of my Flutter-based ToDoApp for my internship project. The current focus is on implementing a fully functional and validated Login Screen with proper UI, form handling, and navigation to the Home screen.
 
-## Getting Started
+## Week 1 Features Implemented
 
-A few resources to get you started if this is your first Flutter project:
+📱 Responsive Login UI
 
-- https://flutter.dev/docs/get-started/codelab
-- https://flutter.dev/docs/cookbook
+✅ Form validation (email and password)
 
-For help getting started with Flutter, view our
-https://flutter.dev/docs, which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+➡️ Navigation to the Home screen upon login
 
-## Getting Started: FlutLab - Flutter Online IDE
+🎨 Use of custom colors and constants folder
 
-- How to use FlutLab? Please, view our https://flutlab.io/docs
-- Join the discussion and conversation on https://flutlab.io/residents
+📂 Organized project structure
+
+☁️ Uploaded to GitHub for version control
+
+## Folders Structure
+
+lib/
+├── constants/ # Colors and constants used across app
+├── screens/
+│ ├── login_screen.dart # Login UI + validation logic
+│ └── home_screen.dart # Dummy Home screen after login
+├── widgets/ # Custom reusable widgets (e.g., buttons)
+└── main.dart # App entry point with routing
+
+## 🚧 Planned Features for Week 2 & 3
+
+> These will be implemented in future internship tasks.
+
+- 📝 Add task screen
+- 📋 List tasks using ListView or GridView
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 🎨 UI improvements & theme management
+- 🧠 Local storage integration using `shared_preferences` or `sqflite`
